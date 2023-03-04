@@ -1,0 +1,48 @@
+.demo1{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    display: flex;
+   .child{
+      margin: auto;
+    } 
+  }
+  .demo2{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #000;
+    text-align: center;
+  }
+  .demo3{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .demo4{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    position: relative;
+    .child{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+  .demo5{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    margin: 200px;
+    text-align: center;
+    display:table-cell;;
+    vertical-align: middle;
+    .child{
+        display:inline-block;
+    }
+}
